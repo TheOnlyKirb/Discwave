@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/TheOnlyKirb/Discwave/issues"
   },
-  "homepage": "https://github.com/TheOnlyKirb/Discwave#readme"
+  "homepage": "https://github.com/TheOnlyKirb/Discwave#readme",
+  "dependencies": {
+    "@discordjs/opus": "github:discordjs/opus",
+    "discord.js": "github:discordjs/discord.js",
+    "node-fetch": "^2.6.1"
+  }
 }

@@ -1,0 +1,23 @@
+{
+    "c": {
+        "disconnect": {
+            "l1": "Well this is awkward... I'm not streaming anything!",
+            "l2": "controls the audio right now.",
+            "l3": "Done deal. The stream has been stopped and I've disconnected!"
+        },
+        "play": {
+            "l1": "... no. Please join a VC first!",
+            "l2": "",
+            "l3": "",
+            "embed": {
+                "l1": "Now Playing:"
+            }
+        }
+    },
+    "e": {
+
+    },
+    "o": {
+
+    }
+}

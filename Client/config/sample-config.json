@@ -1,5 +1,6 @@
 {
     "token": "Your-Token-Here",
     "apiKey": "Rainwave.cc API Key",
-    "prefix": "Bot Prefix"
+    "prefix": "Bot Prefix",
+    "language": "en"
 }

@@ -1,4 +1,5 @@
 const Discord = require("discord.js")
+const fs = require("fs");
 const Client = new Discord.Client({
     fetchAllMembers: false,
     disableEveryone: true,
@@ -8,11 +9,17 @@ const Client = new Discord.Client({
     http: { api: 'https://discordapp.com/api', version: 7 },
     shardCount: 1
 });
-const fs = require("fs");
+
+// Client hooks
+
 Client.config = require("./config/config.json")
 Client.commands = new Map();
 Client.commands.categories = []
 Client.aliases = new Map();
+Client.txt = require(`./config/languages/${Client.config.language}.json`)
+Client.cache = require("./config/cache.js")(Client)
+
+// Begin event/command registration
 
 fs.readdir("./events/", (err, files) => { // reads the directory/folder
     if (err) return console.error(err) // optional: log the error
