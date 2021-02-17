@@ -7,11 +7,8 @@
         },
         "play": {
             "l1": "... no. Please join a VC first!",
-            "l2": "",
-            "l3": "",
-            "embed": {
-                "l1": "Now Playing:"
-            }
+            "l2": "Uh- could you specify which station?",
+            "l3": "Hm. I don't know that station..."
         }
     },
     "e": {

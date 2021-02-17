@@ -25,6 +25,7 @@
   "dependencies": {
     "@discordjs/opus": "github:discordjs/opus",
     "discord.js": "github:discordjs/discord.js",
+    "ffmpeg-static": "^4.2.7",
     "node-fetch": "^2.6.1"
   }
 }

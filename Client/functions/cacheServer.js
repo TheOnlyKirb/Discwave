@@ -1,4 +1,4 @@
-module.exports = async function cacheServer(Client, data) {
+module.exports = function cacheServer(Client, data) {
     Client.music.servers.set(data.guild.id, {
         guild: data.guild,
         spawnedChannel: data.summoned,
