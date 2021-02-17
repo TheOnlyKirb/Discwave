@@ -1,0 +1,25 @@
+{
+  "name": "discwave",
+  "version": "1.0.0",
+  "description": "A Discord Radio Bot that streams stations from Rainwave.cc",
+  "main": "launch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOnlyKirb/Discwave.git"
+  },
+  "keywords": [
+    "radio",
+    "rainwave",
+    "game",
+    "discord"
+  ],
+  "author": "AJ Nicoloff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheOnlyKirb/Discwave/issues"
+  },
+  "homepage": "https://github.com/TheOnlyKirb/Discwave#readme"
+}
