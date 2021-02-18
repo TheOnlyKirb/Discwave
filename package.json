@@ -25,10 +25,12 @@
   "dependencies": {
     "@discordjs/opus": "github:discordjs/opus",
     "discord.js": "github:discordjs/discord.js",
+    "express": "^4.17.1",
     "ffmpeg": "0.0.4",
     "ffmpeg-static": "^4.2.7",
     "needle": "^2.6.0",
     "node-fetch": "^2.6.1",
-    "prism-media": "^1.2.7"
+    "prism-media": "^1.2.7",
+    "request": "^2.88.2"
   }
 }
