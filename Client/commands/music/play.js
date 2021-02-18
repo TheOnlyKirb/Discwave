@@ -9,11 +9,10 @@ exports.run = async (Client, message, args) => {
     const station = await require("../../functions/fetchStation")(args[0].toLowerCase())
     embed
         .setAuthor(`Rainwave ${args[0].toLowerCase().charAt(0).toUpperCase() + args[0].toLowerCase().substr(1, args[0].length)}`, Client.user.displayAvatarURL())
-        .setDescription(`:cd: **${station.all_stations_info[station.sid].title}**\n📖 ${station.all_stations_info[station.sid].album}`)
+        .setDescription(`:cd: **${station.all_stations_info[station.sid].title}** \`|\` :star: **${station.sched_current.songs[0].rating}**\n📖 ${station.all_stations_info[station.sid].album}\n\n${require("../../functions/timeSlider")(station.sched_current.start_actual, station.sched_current.end, station.sched_current.length)}`)
         .setThumbnail(`https://rainwave.cc${station.all_stations_info[station.sid].art}_240.jpg`)
     return message.channel.send(embed)
 }
-
 exports.help = {
     name: 'play',
     aliases: ["p", "stream"],
